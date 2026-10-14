@@ -27,7 +27,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "desktop": "electron .",
+    "desktop:dev": "DISFUSE_DEV_URL=http://localhost:3000 electron ."
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.0.1",
-    "vite": "^8.0.3"
-  }
+    "vite": "^8.0.3",
+    "electron": "^33.0.0"
+  },
+  "main": "desktop/main.cjs"
 }

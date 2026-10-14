@@ -46,3 +46,14 @@ If you need any help, want to ask questions about the website, want to show off 
 ## License
 
 **© 2024 DisFuse**. This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Desktop app
+
+A thin Electron window around the live DisFuse web app.
+
+```
+pnpm install
+pnpm desktop
+```
+
+This project is based on [DisFuse](https://github.com/Millionxsam/DisFuse) by Millionxsam and its contributors, and is licensed under CC BY-NC-SA 4.0 like the original. It is non-commercial and not affiliated with or endorsed by DisFuse.
